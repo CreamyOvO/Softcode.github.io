@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 nav {
@@ -36,6 +37,10 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+}
+
+#landing-button a {
+    cursor: pointer;
 }
 
 button:hover {
@@ -84,11 +89,12 @@ section {
     font-weight: 700;
 }
 
-#landing-button button {
+#landing-button a {
     padding: 13px 46px;
     font-size: 30px;
     border-radius: 20px;
     margin-top: 0;
+    text-decoration: none;
 }
 
 #team h1 {
@@ -140,6 +146,7 @@ section {
 }
 
 #about {
+    margin: 64px 100px 0 100px;
     font-family: Montserrat;
 }
 
@@ -267,7 +274,7 @@ section {
     margin-bottom: 50px;
 }
 
-.Buy-btn button {
+.Buy-btn a {
     border: none;
     background-color: #0074de;
     color: white;
@@ -275,6 +282,8 @@ section {
     border-radius: 15px;
     font-size: 30px;
     font-weight: 600;
+    text-decoration: none;
+    font-family: Montserrat;
 }
 
 footer {
@@ -309,4 +318,14 @@ footer {
 
 #footer-icon img:hover {
     cursor: pointer;
+}
+
+@media only screen and (max-width: 1238px) {
+    #landing p {
+        font-size: 20px;
+    }
+
+    #team h3 {
+        font-size: 28px;
+    }
 }

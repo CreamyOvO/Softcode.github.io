@@ -1,0 +1,147 @@
+body {
+    background-image: linear-gradient(white, rgb(223, 215, 215));
+}
+
+section {
+    background-color: #0074DE;
+    text-align: center;
+    margin: 72px 390px 72px 390px;
+    font-family: Montserrat;
+    padding: 17px 20px;
+    border-radius: 30px;
+}
+
+#box-header {
+    color: white;
+    margin-top: 0;
+    margin-bottom: 64px;
+    font-size: 35px;
+}
+
+#begin {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+#begin img {
+    width: 99%;
+    margin: 0;
+}
+
+#box-text > h3 {
+    color: white;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#box-text > p {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+#box-price > h3 {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 0;
+    margin-top: 55px;
+}
+
+#box-price > p {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+#form {
+    text-align: left;
+    margin-top: 15px;
+}
+
+.form-detail label {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.form-detail input {
+    border: none;
+    background-color: #0074DE;
+    outline: none;
+    border-bottom: solid 4px white;
+    margin-bottom: 20px;
+    width: 100%;
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+#agree {
+    text-align: left;
+}
+
+#agree1 {
+    display: flex;
+}
+
+.agree-detail {
+    display: flex;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+input[type="checkbox"]:hover {
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+    background-color: greenyellow;
+}
+
+.agree-detail p {
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+#agree1 p {
+    margin: 0;
+    color: white;
+    margin-left: 5px;
+}
+
+#agree2 {
+    display: flex;
+    text-align: center;
+}
+
+#agree2 {
+    margin: 0;
+    color: white;
+}
+
+button {
+    border: none;
+    color: #0074DE;
+    background-color: white;
+    font-weight: 600;
+    padding: 12px 29px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+::placeholder {
+    color: white;
+    opacity: 0.5;
+}
